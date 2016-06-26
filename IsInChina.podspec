@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IsInChina'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IsInChina.'
+  s.version          = '1.0.0'
+  s.summary          = 'Provides utility methods for knowing if the device is operating inside China.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+If you need to know if the user is inside China. Mainly because the Chinese Golden Shield could cause some issues when accesing servers outside China.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/IsInChina'
+  s.homepage         = 'https://github.com/NinjasCL/IsInChina'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Camilo Castro' => 'camilo@ninjas.cl' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/IsInChina.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/NinjasCL/IsInChina.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/camcasc'
 
   s.ios.deployment_target = '8.0'
 
