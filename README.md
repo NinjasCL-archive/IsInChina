@@ -54,6 +54,6 @@ pod "IsInChina"
 
 Camilo Castro, camilo@ninjas.cl
 
-## License
+## Licence
 
-IsInChina is available under the MIT license. See the LICENSE file for more info.
+IsInChina is available under the MIT license. See the LICENCE file for more info.
