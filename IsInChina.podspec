@@ -26,7 +26,7 @@ If you need to know if the user is inside China. Mainly because the Chinese Gold
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Camilo Castro' => 'camilo@ninjas.cl' }
   s.source           = { :git => 'https://github.com/NinjasCL/IsInChina.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/camcasc'
+  s.social_media_url = 'https://twitter.com/camcasc'
 
   s.ios.deployment_target = '8.0'
 
