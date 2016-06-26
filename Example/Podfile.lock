@@ -1,0 +1,16 @@
+PODS:
+  - IsInChina (0.1.0)
+
+DEPENDENCIES:
+  - IsInChina (from `../`)
+
+EXTERNAL SOURCES:
+  IsInChina:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IsInChina: 0763a4922980e3c892d551d200da8b7304130e6e
+
+PODFILE CHECKSUM: 62aab76ed04bd9a5eeddde3cc50094a7a4d47d84
+
+COCOAPODS: 1.0.1

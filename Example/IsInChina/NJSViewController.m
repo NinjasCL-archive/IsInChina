@@ -7,23 +7,25 @@
 //
 
 #import "NJSViewController.h"
+#import "NJSIsInChina.h"
 
 @interface NJSViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
 
 @implementation NJSViewController
 
-- (void)viewDidLoad
-{
+- (void) viewDidLoad {
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	
+    self.statusLabel.text = @"Not In China";
+    
+    if ([NJSIsInChina deviceIsRunningInChina]) {
+        self.statusLabel.text = @"In China";
+    }
 }
 
 @end

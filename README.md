@@ -9,7 +9,36 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+
+Call the following method inside App Delegate or other place that you want
+
+```objective-c
++ (BOOL) deviceIsRunningInChina;
+```
+
+
 ## Requirements
+This plugin depends on geoplugin.com servers.
+Please add geoplugin.net to your NSAppTransportSecurity plist.
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>geoplugin.net</key>
+        <dict>
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSExceptionMinimumTLSVersion</key>
+            <string>TLSv1.1</string>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+        </dict>
+    </dict>
+</dict>
+```
 
 ## Installation
 
@@ -19,6 +48,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "IsInChina"
 ```
+
 
 ## Author
 
