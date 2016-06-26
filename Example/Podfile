@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IsInChina_Example' do
+  pod 'IsInChina', :path => '../'
+
+  target 'IsInChina_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
